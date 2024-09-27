@@ -1,0 +1,116 @@
+
+.calculator {
+    width: 350px;
+    background-color: #333;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+    margin: auto;
+    text-align: center;
+    margin-top: 7%;
+    margin-bottom: 3%;
+    border: 1px solid #444;
+    outline: 1px solid rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    font-size: 1.5em;
+    border-radius: 15px;
+    margin: 8px;
+    background-color: #4C4C4C;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background-color: #666;
+    transform: scale(1.05);
+}
+
+
+button#erase,
+button#plus,
+button#minus,
+button#multy,
+button#divide,
+button#equal,
+button#allclear,
+button[id^="n"] {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+button#plus,
+button#minus,
+button#multy,
+button#divide {
+    background-color: #FF9500;
+}
+
+button#equal {
+    background-color: #4CAF50;
+}
+
+button#allclear {
+    background-color: #FF4136;
+}
+
+button#erase {
+    background-color: #FF5c5c;
+}
+
+button#erase:hover {
+    background-color: #e04e4e;
+}
+
+
+button#erase img {
+    width: 30px;
+    height: 30px;
+}
+
+
+@media (max-width: 400px) {
+    .calculator {
+        width: 90%;
+    }
+    button {
+        width: 50px;
+        height: 50px;
+        font-size: 1.2em;
+    }
+}
+
+
+#display-container {
+    background-color: #000;
+    border-radius: 15px;
+    padding: 25px;
+    margin-bottom: 25px;
+    box-shadow: inset 0px 5px 15px rgba(0, 0, 0, 0.5);
+    border: 1px solid #222;
+}
+
+#display {
+    color: #fff;
+    font-size: 2.8rem;
+    text-align: right;
+    margin: 0;
+    line-height: 1em;
+    width: 100%;
+    letter-spacing: 1px;
+}
+
