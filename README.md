@@ -7,7 +7,7 @@ It provides basic arithmetic operations including addition, subtraction, multipl
 The calculator is designed with a modern aesthetic and a user-friendly interface.
 
 
-![Calculator](https://github.com/Sasindiw/Calculator/blob/main/cal.png?raw=true)
+<img src="https://github.com/Sasindiw/Calculator/blob/main/cal.png?raw=true" alt="Calculator" width="300"/>
 
 
 ## Features
