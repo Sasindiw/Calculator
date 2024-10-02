@@ -6,6 +6,13 @@ This is a simple calculator application built using HTML, CSS, and JavaScript.
 It provides basic arithmetic operations including addition, subtraction, multiplication, and division.  
 The calculator is designed with a modern aesthetic and a user-friendly interface.
 
+
+
+![Alt text]([image_url](https://github.com/Sasindiw/Calculator/blob/main/cal.png?raw=true))
+
+
+
+
 ## Features
 
 - Perform basic arithmetic operations: addition, subtraction, multiplication, and division.
